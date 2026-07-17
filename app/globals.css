@@ -110,6 +110,18 @@ main{background:var(--white);min-height:60vh;}
 }
 .section-sub{color:var(--text-muted);font-size:14px;padding-bottom:14px;}
 
+.filter-bar{
+  display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;
+  padding:14px 16px;margin:6px 0 18px;background:var(--off-white);border-radius:var(--radius);
+}
+.filter-group{display:flex;flex-direction:column;gap:6px;min-width:160px;}
+.filter-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.4px;color:var(--text-muted);}
+.filter-group select{padding:9px 12px;border:1px solid #ddd;border-radius:10px;font-size:14px;background:#fff;}
+.price-range-row{display:flex;flex-direction:column;gap:2px;min-width:180px;}
+.price-range-row input[type="range"]{width:100%;}
+.filter-checkbox{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;cursor:pointer;}
+.filter-checkbox input{width:16px;height:16px;}
+
 .product-grid{
   display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px;padding:10px 0 30px;
 }
